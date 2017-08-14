@@ -4,8 +4,8 @@ public class Main
 {
 	public static void main(String[] args) 
 	{
-		Singleton s1 = Singleton.getInstance();
-		Singleton s2 = Singleton.getInstance();
+		SingletonStatic s1 = SingletonStatic.getInstance();
+		SingletonStatic s2 = SingletonStatic.getInstance();
 		
 		if(s1 == s2)
 		{
